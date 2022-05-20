@@ -17,7 +17,7 @@ sicaklik = str(jsonResponse["main"]["temp"] - 273)
 hissedilen = str(jsonResponse["main"]["feels_like"] - 273)
 basinc =    str(jsonResponse["main"]["pressure"]) + " Pascal"
 nem = int(jsonResponse["main"]["humidity"])
-if nem > 90:
+
     
 
 
